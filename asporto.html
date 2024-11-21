@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BEST PIZZA - Asporto</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="favicon.png" sizes="16x16" type="image/png">
+</head>
+
+<body style="background-color:rgb(255, 255, 255);">
+    <header>
+        <p style="float: right;">
+            <img src="copertina.jpg" alt="Logo Best Pizza" width="1630"><!--IMMAGINE GRANDE CON LOGO-->
+       </p>
+
+        <!--Elenco menu di navigazione -->
+        <aside style="float: left;">
+            <nav style="background-repeat: no-repeat; background-size: cover; background-position: 50%;">
+                <br></br><img src="favicon.png" width="190px">
+
+                <ul style="color: rgb(99, 25, 15); font-family:Arial, Helvetica, sans-serif; font-size: 25px;">
+
+                    <li><a href="/index.html"; style="color: rgb(31, 30, 22)">Home</a><br><br></li>
+           
+                    <li><a href="/chi-siamo.html" style="color: rgb(31, 30, 22)">Chi Siamo</a><br><br></li>
+            
+                    <li><a href="/menu.html" style="color: rgb(31, 30, 22)">Menu</a><br><br></li>
+           
+                    <li><a href="/Prenotatavolo.html" style="color: rgb(31, 30, 22)">Prenota tavolo</a><br><br></li>
+           
+                    <li><a href="/asporto.html" style="color: rgb(31, 30, 22)">Asporto</a><br><br></li>
+            
+                </ul>
+            </nav>
+            <img src="fogliobianco.jpeg" width="250px" height="900px">
+
+        </aside>
+
+    </header>
+  
+     <!------------------------------------------------FINE PARTE UGUALE----------------------------------------------->
+
+    <section>
+
+        <!---------------------------------------------FORM PER ASPORTO------------------------------------------------>
+        <h1 style="color:rgb(116, 39, 4); font-family:Arial, Helvetica, sans-serif; font-size: 25px;">ORDINA LE TUE PIZZE D'ASPORTO
+            <a href="menubestpizza.jpg" target="_blank" style="color:rgb(116, 39, 4); font-family:Arial, Helvetica, sans-serif; font-size: 20px;">
+            [Scarica Menu]</a>
+        </h1>
+    
+        <form action="invia.php" style="font-family:Arial, Helvetica, sans-serif; font-size: 20px;">
+
+            Ora: <input type="time" name="timepicker" value="20:30" min="19:00" max="22:00" step="60">
+            <br><br>
+            Num. pizze: <input type="number"; name="posti" value="4" min="1" max="20">
+            <br><br>
+            <br><br>
+            Pizza 1: <input type="text" name="nome-pizza">
+            Variazioni: <input type="text" name="variazioni pizza">  
+            <br><br>
+            Pizza 2: <input type="text" name="nome-pizza">  
+            Variazioni: <input type="text" name="variazioni pizza">
+            <br><br>
+            Pizza 3: <input type="text" name="nome-pizza">  
+            Variazioni: <input type="text" name="variazioni pizza">
+            <br><br>
+            Pizza 4: <input type="text" name="nome-pizza"> 
+            Variazioni: <input type="text" name="variazioni pizza"> 
+            <br><br>
+            Pizza 5: <input type="text" name="nome-pizza">  
+            Variazioni: <input type="text" name="variazioni pizza">
+            <br><br>
+            Pizza 6: <input type="text" name="nome-pizza">  
+            Variazioni: <input type="text" name="variazioni pizza">
+            <br><br>
+            Pizza 7: <input type="text" name="nome-pizza"> 
+            Variazioni: <input type="text" name="variazioni pizza"> 
+            <br><br>
+            Pizza 8: <input type="text" name="nome-pizza">  
+            Variazioni: <input type="text" name="variazioni pizza">
+            <br><br>
+            Pizza 9: <input type="text" name="nome-pizza">  
+            Variazioni: <input type="text" name="variazioni pizza">
+            <br><br>
+            Pizza 10: <input type="text" name="nome-pizza"> 
+            Variazioni: <input type="text" name="variazioni pizza">
+            <br><br>
+            <br><br>
+            Nominativo: <input type="text" name="referente"> 
+            <br><br> 
+            Num. telefono: <input type="text" name="telefono" min="8" max="15"> 
+            <br><br>
+            <br><br>
+
+            <center><button type="submit">
+                <img src="prenotabutton.png" width="200px" alt="prenota-tavolo">
+            </button></center>
+
+            <center><p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 15px;">
+                N.B. Per gli ordini superiori a n.10 pizze
+                <br>vi invitiamo a chiamarci al +39 380 676 767
+            </p></center>
+
+        </form>
+        <br><br>
+
+     <!--------------------------------FOOTER-------------------------------------------------------------------------->
+        <footer style="font-family: Arial, Helvetica, sans-serif; background-color: rgba(170,144,86,255); font-size: 15px; text-align: center;">
+            <br>Best Pizza Srl <br>
+            <br>Via Maggiore n. 123, Roma <br>
+            <br>Telefono: +39 380 676 767 <br>
+            <br> P. Iva: 7373473473399 <br><br>
+        </footer>
+
+    </section>
+
+</body>
+
+</html>    
